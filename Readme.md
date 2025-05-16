@@ -34,7 +34,7 @@ By using docker:
    ```
 
 ## OpenAI API Keys
-Ensure that OpenAI API keys are added in both the frontend and backend.
+Ensure that OpenAI API keys is added in .env
 - **Backend**: Store the API key in an `.env` file or a secure environment variable.
 
 ## Tech Stack Used
