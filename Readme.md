@@ -1,8 +1,17 @@
-# Project Setup
+# Scandinavian Name Correction
 
-## Running the Project
+## Objective
+To perform **Scandinavian name correction**, ensuring that variations or misspellings of Scandinavian names are normalized to a standard form.
 
+## Approach
+A **hybrid approach** is used that combines:
 
+- **Mapping techniques**: To handle common and known name variations deterministically.
+- **LLMs via LlamaIndex**: To intelligently correct and infer less common or context-sensitive name variations using natural language understanding.
+
+---
+
+## Project Setup
 ### Backend
 By using docker:
 ```sh
